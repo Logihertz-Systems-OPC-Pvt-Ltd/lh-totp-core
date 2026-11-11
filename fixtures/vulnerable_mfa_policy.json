@@ -1,0 +1,21 @@
+{
+  "policy_name": "Insecure Vulnerable 2FA Policy",
+  "secret_bits": 64,
+  "shannon_entropy": 2.15,
+  "replay_protection_enabled": false,
+  "window_steps": 5,
+  "lockout_enabled": false,
+  "max_failed_attempts": 20,
+  "lockout_duration_seconds": 30,
+  "period_seconds": 120,
+  "digits": 4,
+  "algorithm": "SHA1",
+  "encrypt_secret_at_rest": false,
+  "hash_backup_codes": false,
+  "constant_time_verification": false,
+  "require_tls_enrollment": false,
+  "issuer": "",
+  "log_provisioning_uri": true,
+  "backup_code_count": 25,
+  "backup_code_bits": 32
+}

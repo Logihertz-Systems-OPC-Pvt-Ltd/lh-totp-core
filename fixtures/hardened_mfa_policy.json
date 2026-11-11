@@ -1,0 +1,21 @@
+{
+  "policy_name": "Hardened Enterprise 2FA Policy",
+  "secret_bits": 256,
+  "shannon_entropy": 4.85,
+  "replay_protection_enabled": true,
+  "window_steps": 1,
+  "lockout_enabled": true,
+  "max_failed_attempts": 3,
+  "lockout_duration_seconds": 600,
+  "period_seconds": 30,
+  "digits": 6,
+  "algorithm": "SHA256",
+  "encrypt_secret_at_rest": true,
+  "hash_backup_codes": true,
+  "constant_time_verification": true,
+  "require_tls_enrollment": true,
+  "issuer": "Logihertz Systems",
+  "log_provisioning_uri": false,
+  "backup_code_count": 8,
+  "backup_code_bits": 80
+}

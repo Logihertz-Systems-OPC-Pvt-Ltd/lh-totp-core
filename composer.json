@@ -1,0 +1,38 @@
+{
+  "name": "logihertzsystems/lh-totp-core",
+  "description": "Zero-dependency PHP 8.2+ RFC 6238 TOTP & RFC 4226 HOTP Two-Factor Authentication Engine, Backup Code Manager & 10-Rule MFA Posture Auditor.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "logihertzsystems",
+      "email": "ops@logihertz.com"
+    },
+    {
+      "name": "Sameer Tawade (Creator, Founder, Director & Sole Developer)",
+      "email": "ops@logihertz.com"
+    }
+  ],
+  "homepage": "https://logihertz.com/",
+  "support": {
+    "email": "ops@logihertz.com",
+    "source": "https://github.com/Logihertz-Systems-OPC-Pvt-Ltd/lh-totp-core"
+  },
+  "require": {
+    "php": "^8.2",
+    "ext-hash": "*",
+    "ext-json": "*",
+    "ext-spl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Logihertz\\TotpCore\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/lh-totp"
+  ],
+  "config": {
+    "sort-packages": true
+  }
+}
