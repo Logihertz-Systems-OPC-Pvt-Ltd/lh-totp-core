@@ -1,0 +1,9 @@
+Package: lh-totp-core
+Version: 0.1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Sameer Tawade <ops@logihertz.com>
+Homepage: https://www.logihertz.com
+Description: lh-totp - RFC 6238 Time-Based One-Time Password Counter & Truncate
+ Pure PHP 8.2+ RFC 6238 TOTP and RFC 4226 HOTP two-factor authentication engine with RFC 4648 Base32 encoding, SHA-1/SHA-256/SHA-512 support, replay-cache guard, PBKDF2 backup codes, and MFA posture auditor.
